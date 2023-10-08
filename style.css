@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("card.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pricing-card{
+    background-color: #f5f3f3c9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+.pricing-card:hover{
+    background-color: rgb(121, 116, 116);
+}
+
+.card-header {
+    background-color: #0f7cf1;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.currency {
+    font-size: 0.8em;
+}
+
+.amount {
+    font-size: 1.5em;
+}
+
+.period {
+    font-size: 0.8em;
+}
+
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn {
+    background-color: #1d73ce;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
